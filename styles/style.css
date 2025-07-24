@@ -15,3 +15,61 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+/* common */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* shared style */
+.color-gray {
+  color: rgba(137, 135, 161, 1);
+}
+.color-black {
+  color: black;
+}
+
+/* nav styles */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 30px;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  list-style: none;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav ul li:nth-child(1) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.nav ul a :nth-child(3) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* styles for small devices */
+
+@media screen and (max-width: 576px) {
+  /* nav */
+  .nav {
+    margin: 67px 48px 16px;
+  }
+  .nav ul li:nth-child(1),
+  li:nth-child(2),
+  li:nth-child(3) {
+    display: none;
+  }
+}
