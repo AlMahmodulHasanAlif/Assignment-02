@@ -80,6 +80,51 @@ body {
   font-size: 1.25rem;
   width: 500px;
 }
+/* our plants section styles */
+.our-plants {
+}
+.plants-title {
+  font-size: 3.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.our-plants p {
+  text-align: center;
+  max-width: 888px;
+  margin: 0px auto;
+}
+.card-container {
+  width: 270px;
+  height: 485px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 30px;
+}
+.card-container p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 30px;
+}
+#price {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+#add-to-cart {
+  background-color: #e95a08;
+  color: white;
+  padding: 26px 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+
 /* styles for small devices */
 
 @media screen and (max-width: 576px) {
