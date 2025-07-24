@@ -34,8 +34,8 @@ body {
 .color-black {
   color: black;
 }
-.color-orange{
-  color: #E95A08;
+.color-orange {
+  color: #e95a08;
 }
 
 /* nav styles */
@@ -66,30 +66,68 @@ body {
 }
 
 /* Fresh flowers section styles*/
-.fresh-flowers{
+.fresh-flowers {
   display: flex;
   margin: 120px auto;
   height: 441px;
   align-items: flex-end;
 }
-.flowers-title{
+.flowers-title {
   font-size: 4.06rem;
   font-weight: 700;
 }
-.fresh-flowers p{
+.fresh-flowers p {
   font-size: 1.25rem;
   width: 500px;
 }
 /* styles for small devices */
 
 @media screen and (max-width: 576px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    max-width: 576px;
+    margin: 0 auto;
+  }
   /* nav */
   .nav {
-    margin: 67px 48px 16px;
+    margin: 13px 16px;
+  }
+  #cart {
+    transform: scale(1.9);
+    display: flex;
+    padding-top: 20px;
+    margin-right: 45px;
   }
   .nav ul li:nth-child(1),
   li:nth-child(2),
   li:nth-child(3) {
     display: none;
+  }
+  /* fresh flower section */
+  .fresh-flowers {
+    display: grid;
+    margin-left: ;
+  }
+  .fresh-flowers img {
+    order: 1;
+    width: 100%;
+  }
+  .fresh-flowers .flowers-text {
+    order: 2;
+  }
+  .flowers-text {
+    margin: 28px 16px 65px 16px;
+  }
+  .flowers-title {
+    font-size: 2rem;
+    width: 300px;
+  }
+  .fresh-flowers p {
+    font-size: 1rem;
+    width: 440px;
   }
 }
