@@ -81,8 +81,6 @@ body {
   width: 500px;
 }
 /* our plants section styles */
-.our-plants {
-}
 .plants-title {
   font-size: 3.1rem;
   font-weight: 700;
@@ -175,4 +173,27 @@ body {
     font-size: 1rem;
     width: 440px;
   }
+  /* our plants section */
+  .card-container {
+  width: 171px;
+  height: 340px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 0px;
+  transform: scale(.8);
+}
+.our-plants p {
+  max-width: 370px;
+  height: 68px;
+}
+.card{
+  transform: scale(.);
+}
+#price{
+  margin-top: 0px;
+}
+.card-container p {
+ margin-bottom: 0px;
+ padding-bottom: 0px;
+ width: fit-content;
+ height: fit-content;
 }
