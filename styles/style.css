@@ -25,6 +25,7 @@
 body {
   max-width: 1140px;
   margin: 0 auto;
+  background-color: #f5f7ff;
 }
 /* shared style */
 .color-gray {
@@ -32,6 +33,9 @@ body {
 }
 .color-black {
   color: black;
+}
+.color-orange{
+  color: #E95A08;
 }
 
 /* nav styles */
@@ -41,6 +45,7 @@ body {
   align-items: center;
   align-content: center;
   margin-top: 30px;
+  margin-bottom: 130px;
 }
 .nav ul {
   display: flex;
@@ -60,6 +65,21 @@ body {
   font-weight: bold;
 }
 
+/* Fresh flowers section styles*/
+.fresh-flowers{
+  display: flex;
+  margin: 120px auto;
+  height: 441px;
+  align-items: flex-end;
+}
+.flowers-title{
+  font-size: 4.06rem;
+  font-weight: 700;
+}
+.fresh-flowers p{
+  font-size: 1.25rem;
+  width: 500px;
+}
 /* styles for small devices */
 
 @media screen and (max-width: 576px) {
