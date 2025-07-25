@@ -173,10 +173,18 @@ display: flex;
   font-size: 1.3rem;
   text-align: center;
 }
+.offer-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  text-align: center;
+}
+.offer-container img{
+  border border-radius: ;
+}
 
 /* join section styels */
 .join-section {
-  background-image: url(/assets/news-letter-bg.png);
+  background-image: url(./assets/news-letter-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
