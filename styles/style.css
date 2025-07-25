@@ -222,6 +222,7 @@ display: flex;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 0px;
   transform: scale(.8);
+  margin-top: 28px;
   }
   .our-plants p {
   max-width: 370px;
@@ -241,7 +242,7 @@ display: flex;
   }
   /* flower and plants section styles */
   .flower-plants-container{
-    margin-top: 1500px;
+    margin-top: 1400px;
     flex-direction: column;
     margin-right: 0px;
   }
