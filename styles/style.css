@@ -273,6 +273,36 @@ display: flex;
   padding: 0 25px;
   font-size: 1em;
   }
+  /* footer styles */
+  .footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+  }
+  .footer-container ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .footer-container ul li {
+    list-style: none;
+  }
+  .footer-container ul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 120px;
+  }
+  .footer-container p {
+    font-size: 1.3rem;
+    max-width: 360px;
+  }
+  .social-icon{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 150px;
+    margin-left: 120px;
+  }
+
 /* styles for small devices */
 
 @media screen and (max-width: 576px) {
@@ -394,16 +424,16 @@ display: flex;
   grid-template-columns: repeat(1,1fr);
   text-align: center;
   position: relative;
-}
-.latest-deals{
+  }
+  .latest-deals{
   margin-bottom: 120px;
-}
-.latest-deals-title{
+  }
+  .latest-deals-title{
   font-size: 3.1rem;
   text-align: center;
   margin-bottom: 16px;
-}
-.latest-deals p{
+  }
+  .latest-deals p{
   font-size: 1.3rem;
   max-width: 336px;
   max-height: 48px;
@@ -411,51 +441,51 @@ display: flex;
   text-align: center;
 
   margin-bottom: 120px;
-}
+  }
 
-.offer-container img{
+  .offer-container img{
   width: 90%;
   filter: brightness(0.5);
-}
-.zero-tag-offer{
+  }
+  .zero-tag-offer{
   position: absolute;
   top: 12%;
   left: 22%;
-}
-.one-tag-offer{
+  }
+  .one-tag-offer{
   position: absolute;
   top: 45%;
   left: 22%;
-}
-.two-tag-offer{
+  }
+  .two-tag-offer{
   position: absolute;
   top: 79%;
   left: 22%;
-}
-.offer-container h3{
+  }
+  .offer-container h3{
   font-size: 1.25rem;
   font-weight: 700;
   color: white;
-}
-.shopnow-2{
+  }
+  .shopnow-2{
   font-size: 1.75rem;
   font-weight: 600;
   color: white;
   text-decoration: underline;
-}
+  }
 
-.shopnow-1{
+  .shopnow-1{
   font-size: 1rem;
   font-weight: 600;
   color: white;
   text-decoration: underline;
-}
-.offer-container h4{
+  }
+  .offer-container h4{
   font-size: 1.25rem;
   font-weight: 700;
   color: white;
   margin-bottom: 10px;
-}
+  }
   /* join section styels */
   .join-section {
   background-size: cover;
@@ -466,27 +496,26 @@ display: flex;
   height: 276px;
   left: 0px;
   }
-.join{
+  .join{
   max-width: 330px;
   margin: 0px auto;
   padding-top: 100px;
-;
-}
-.join h3{
+  }
+  .join h3{
   font-size: 1.25rem;
   margin-bottom: 30px;
   color: white;
-}
-.subscribe-form {
+  }
+  .subscribe-form {
   background-color: white;
-}
-.subscribe-form input[type="email"] {
+  }
+  .subscribe-form input[type="email"] {
   flex: 1;
   padding: 15px;
   border: none;
   font-size: 1rem;
-}
-.subscribe-form button {
+  }
+  .subscribe-form button {
   background-color: #f4511e;
   color: white;
   border: none;
