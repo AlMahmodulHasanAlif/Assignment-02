@@ -88,18 +88,21 @@ body {
   margin-bottom: 16px;
 }
 .our-plants p {
+  font-size: 1.25rem;
   text-align: center;
-  max-width: 888px;
+  max-width: 840px;
   margin: 0px auto;
 }
 .card-container {
-  width: 270px;
-  height: 485px;
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  row-gap: 20px;
-  column-gap: 30px;
+  row-gap: 30px;
+  column-gap: 20px;
+}
+.card{
+  width: 270px;
+  height: 485px;
 }
 .card-container p {
   font-size: 1.3rem;
@@ -121,6 +124,45 @@ body {
   font-weight: 600;
   text-align: center;
   margin-top: 30px;
+}
+/* flower-plants section styles */
+.flower-plants{
+  margin-top: 210px;
+}
+.flower-plants-container{
+display: flex;
+}
+.flower-plants-left{
+  position: relative;
+}
+.flower-plants-right{
+  margin-left: 95px;
+  margin-top: 38px;
+}
+.flower-plants-title{
+  font-size: 3.1rem;
+  font-weight: 700;
+  width: 540px;
+}
+.flower-plants-right ul li{
+  font-size: 1.3rem;
+  width: 480px;
+  height: 108px;
+  margin-top: 20px;
+}
+.flower-plants-right ul{
+  margin-left: 25px;
+}
+#img-1{
+  max-width: 540px;
+  max-height: 597px;
+}
+#img-2{
+  max-width: 286px;
+  max height: 286px;
+  position:absolute;
+  top:-21%;
+  right:-18%;
 }
 
 /* styles for small devices */
@@ -175,25 +217,55 @@ body {
   }
   /* our plants section */
   .card-container {
-  width: 171px;
+  width: 210px;
   height: 340px;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 0px;
   transform: scale(.8);
-}
-.our-plants p {
+  }
+  .our-plants p {
   max-width: 370px;
   height: 68px;
-}
-.card{
+  }
+  .card{
   transform: scale(.);
-}
-#price{
+  }
+  #price{
   margin-top: 0px;
-}
-.card-container p {
- margin-bottom: 0px;
- padding-bottom: 0px;
- width: fit-content;
- height: fit-content;
+  }
+  .card-container p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: fit-content;
+  height: fit-content;
+  }
+  /* flower and plants section styles */
+  .flower-plants-container{
+    margin-top: 1500px;
+    flex-direction: column;
+    margin-right: 0px;
+  }
+  #img-1{
+    max-width: 450px;
+    background-color: green;
+    margin-left: 20px;
+  }
+  #img-2{
+    display: none;
+  }
+  .flower-plants-container ul li{
+    text-align: left;
+    width: 440px;
+  }
+  .flower-plants-left{
+    margin-right: 0px;
+  }
+  .flower-plants-right{
+    margin-left:20px;
+    display: ;
+  }
+  .flower-plants-title{
+    font-size: 1.5rem;
+  }
+
 }
