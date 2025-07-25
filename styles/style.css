@@ -165,6 +165,14 @@ display: flex;
   right:-18%;
 }
 /* Latest Deals Section styles */
+.latest-deals-title{
+  font-size: 3.1rem;
+  text-align: center;
+}
+.latest-deals p{
+  font-size: 1.3rem;
+  text-align: center;
+}
 
 /* join section styels */
 .join-section {
